@@ -1,0 +1,36 @@
+
+ .new{
+    text-align: center;
+    font-family:Italic;
+
+}
+i{
+    color:crimson;
+    font-size: 25px;
+}
+
+
+.a{
+    text-align: center;
+    font-family:Italic;
+    color: rgba(173, 239, 237, 0.904);
+    font-weight: 900;
+}
+.b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+@font-face{
+    font-family:Italic ;
+    src: url(../style/Hirarki\ Signature.otf);
+}
+h2{
+    font-size: small;
+    color:crimson
+}
+font{
+    color: cornsilk;
+}
+
+    

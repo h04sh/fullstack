@@ -1,0 +1,19 @@
+h1
+{
+    font-size: 59px;
+    font-family: Brush Script MT;
+    text-align: center;
+    text-decoration: wavy;
+    color: rgb(36, 249, 24);
+    text-decoration: double underline  blue ;
+    
+}
+#dec
+{
+    letter-spacing:  10px; 
+    color:limegreen;
+    font-weight: 900;
+}
+p{
+    text-indent: 50px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+section{
+        background-image: url(../img/back.avif);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+ }
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+  
+}
+.bet{
+  
+    width: 65%;
+   margin: 0 auto;
+   
+}
+.a{
+    background-image: url(../img/1.jpeg);
+}
+.b{
+    background-image: url(../img/2.jpg);
+   
+}
+.box{
+    width: calc(100% / 8);
+    height:calc(100vh / 8);
+   
+    float: left;
+}
+img{
+    width: 80%;
+    object-fit:contain;
+    object-position: center;
+  
+}
+.clearfix{
+   
+    clear: both;
+}

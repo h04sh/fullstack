@@ -1,0 +1,59 @@
+.tag{
+    background-color:rgba(81, 79, 77, 0.467) ;
+    background-image: url(../photo/1.jpg);
+    background-repeat: no-repeat;
+   padding: 20px;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+
+
+}
+@font-face {
+    font-family:KumbhSans;
+    src: url(../css/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+.c{
+    color: #2BE4AC;
+    font-family:KumbhSans;
+    font-size: 28px;
+
+
+}
+h2{
+    color: white;
+    font-size: 46px;
+   
+}
+.g{
+    border-radius: 50px;
+    border-color: azure ;
+    background-color: #3C84Fb;
+    padding: 10px 30px;
+}
+.mag{
+   
+    height:500px ;
+    background-color:black;
+}
+
+font{
+    color:white;
+    font-family:KumbhSans;
+
+}
+.k{
+    text-align: center;
+}
+i{
+    font-size: 20px;
+    color: white;
+}
+ button{
+    border-radius: 100%;
+    background-color: #777181 ;
+    padding:5px ;
+    border: none;
+} 
+ 

@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.col-1{width:8.33% ;}
+.col-2{width:16.66% ;}
+.col-3{width:25% ;}
+.col-4{width:33.33% ;}
+.col-5{width:41.66%;}
+.col-6{width:50% ;}
+.col-7{width:58.33% ;}
+.col-8{width:66.66%;}
+.col-9{width:75% ;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%}
+.col-12{width:100% ;}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+:root{
+    --white:#fff;
+}
+.d-flex{
+    display: flex;
+}
+.f-wrep{
+    flex-wrap: wrap;
+}
+.justify-btn{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.py-100{
+    padding: 100px 0;
+}
+/* header start */
+header{
+   
+background: linear-gradient(66deg, rgba(34,193,195,1) 0%, rgba(96,121,192,1) 28%, rgba(111,190,136,1) 56%, rgba(234,57,105,1) 85%, rgba(253,187,45,1) 100%);
+z-index: 99;
+}
+.logo{
+    width: 75px;
+}
+.logo img{
+    width: 100%;
+}
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu .nev-link .downdrop a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nev-link{
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.6, 0.04, 0.98, 0.335)
+}
+.nev-link .dropdown{
+    position: absolute;
+    top: -370px;
+    background-color: rgb(34, 193, 195);
+    background: linear-gradient(90deg,rgba(253,187,45,1) 25% , rgba(234,57,105,1) 50%, rgba(111,190,136,1) 56%, rgba(96,121,192,1) 28%, rgba(34,193,195,1) 38%);
+    font-size: 18px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 98;
+}
+.nev-link i{
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nev-link:hover i{
+    transform: rotate(180deg);
+}
+.nev-link:hover{
+    box-shadow:inset 0 0 1px 3px rgb(20, 20, 20);
+}
+.nev-link:hover .dropdown{
+    top: 60px;
+}
+.nev-link .dropdown li{
+    border-bottom:3px solid black ;
+}
+.menu ul li{
+    list-style: none;
+}
+
+/*  card section  */
+.card{
+   
+    width: 100%;
+    padding: 20px;
+}
+.card img{
+    width: 100%;
+    box-shadow: 0 0 2px 5px black;
+}

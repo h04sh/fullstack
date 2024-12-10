@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px 0;
+}
+p{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px 0;  
+    display: none;
+}
+.py-50{
+    padding: 50px 0;
+}
+body{
+    background-color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: 33.33%;
+    padding: 0 12px;
+}
+.c-img{
+    height: 200px;
+    overflow: hidden;
+}
+.c-img img{
+    width: 100%;
+    object-fit: cover;
+ 
+}
+.c-dsc{
+    background-color: rgb(199, 150, 91);
+    padding: 20px;
+}
+.show{
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: antiquewhite;
+    border: 2px solid cyan;
+}

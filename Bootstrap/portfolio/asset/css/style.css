@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --neon:linear-gradient(66deg,  0%,28%, 56%,  85%, rgba(140,112,52,1) 100%); 
+}
+body{
+    background-color: black;
+}
+header{
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px 0 rgb(81, 76, 76);
+}
+header ul{
+    padding: 0;
+    margin: 0;
+
+}
+header ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+header ul li a{
+   
+    text-decoration: none ;    
+    color: gray;
+}
+header .btn{
+    color: gray;
+    margin: 2px -10px 0;
+    box-shadow: 2px 2px 5px 0px rgba(236,25,238,1),-2px -2px 5px 0px  rgba(20,17,88,1),2px -2px 5px 0px rgba(234,57,105,1); 
+}
+

@@ -1,0 +1,12 @@
+@media(min-width:768px){
+  .menu{
+    display: block;
+  }
+  .bar{
+    display: none;
+  }
+  .s-card .coll{
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+  }
+}

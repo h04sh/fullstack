@@ -1,0 +1,27 @@
+@font-face {
+    font-family:PlaywriteGBS-Italic ;
+    src: url(../font/PlaywriteGBS-Italic-VariableFont_wght.ttf);
+}
+p{
+    font-family:PlaywriteGBS-Italic ;
+}
+.card{
+    padding: 100px 50px;
+    background-color:crimson ;
+    width: 400px;
+    border: solid 20px cornsilk;
+    
+   
+}
+.but{
+    background-color: cornsilk;
+    border-left:solid 5px black;
+    padding:16px 30px;
+    font-size: 18px;
+    font-family:PlaywriteGBS-Italic ;
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+
+}
+.ser{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+h1,h2{
+    color: aqua;
+    padding: 15px;
+    font-size: 36px;
+}
+li{
+    padding: 15px;
+}
+.a{
+padding: 20px;
+color: bisque;
+font-size: 26px;
+float: left;
+}
+
+.b{
+    padding: 20px;
+    color: bisque;
+    float: right;
+   font-size: 26px;
+   
+ }
+ .clearfix{
+    clear: both;
+ }

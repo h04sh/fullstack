@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.card{
+    padding: 20px;
+}
+.card img{
+    width: 100%;
+}
+.c-dsc{
+    background-color: rgb(204, 190, 132);
+    text-align: justify;
+    padding: 10px;
+    font-size: 17px;
+}
+.c-dsc button{
+    background-color: rgb(144, 188, 196);
+    padding: 10px;
+    color: brown;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+}

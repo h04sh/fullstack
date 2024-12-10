@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1320px;
+}
+.box{
+    background-color: crimson;
+    width: 100%;
+}
+.box1{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box1 img{
+    /* rotate is defult of rotateZ */
+    width: 400px;
+    height: 400px;
+    transform: rotate(36deg);
+}
+.box2{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box2 img{
+    width: 400px;
+    height: 400px;
+    transform: rotateX(63deg);
+}
+.box3{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box3 img{
+    width: 400px;
+    height: 400px;
+    transform: rotateY(63deg);
+}
+.box4{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box4 img{
+    width: 400px;
+    height: 400px;
+    transform: translateX(150px);
+}
+.box5{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box5 img{
+    width: 400px;
+    height: 400px;
+    transform: translateY(150px);
+}
+.box6{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box6 img{
+    width: 400px;
+    height: 400px;
+    transform: skewX(65deg);
+}
+.box7{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box7 img{
+    width: 400px;
+    height: 400px;
+    transform: skewY(150deg);
+}
+.box8{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box8 img{
+    width: 400px;
+    height: 400px;
+    transform: scaleX(0.5);
+}
+.box9{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid gray;
+    float: left;
+}
+.box9 img{
+    width: 400px;
+    height: 400px;
+    transform: scaleY(0.5);
+}

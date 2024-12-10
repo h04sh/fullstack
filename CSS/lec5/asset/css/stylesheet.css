@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0PX;
+      box-sizing: border-box;
+}
+section{
+    background-color: black;
+}
+.lel{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    background-color: crimson;
+    display: inline-block;
+    margin-right: -4px;
+}
+.lem{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:34%;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin-right: -4px;
+}
+.led{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    background-color: yellow;
+    display: inline-block;
+}
+/*  */
+.p1{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:54% 46% 24% 76% / 30% 68% 32% 70% ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(66, 27, 240);
+    display: inline-block;
+    color: rgb(43, 226, 98);
+   
+}
+.p2{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:18% 82% 24% 76% / 65% 88% 12% 35% ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(231, 26, 129);
+    display: inline-block;
+    color: rgb(43, 226, 217);
+}
+.p3{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:66% 34% 81% 19% / 77% 31% 69% 23% ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(176, 239, 227);
+    display: inline-block;
+    color: rgb(228, 63, 17);
+}
+.p4{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:66% 34% 51% 49% / 48% 57% 43% 52%  ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(225, 151, 39);
+    display: inline-block;
+    color: rgb(226, 43, 107);
+}
+.p5{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:28% 72% 15% 85% / 76% 25% 75% 24% ;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(242, 244, 132, 0.823);
+    display: inline-block;
+    color: rgb(26, 15, 234);
+}
+.p6{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:0% 100% 68% 32% / 0% 47% 53% 100%  ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(204, 54, 231);
+    display: inline-block;
+    color: rgb(225, 16, 110);
+}
+.p7{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:52% 48% 68% 32% / 23% 82% 18% 77% ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(190, 16, 42);
+    display: inline-block;
+    color: rgb(226, 171, 43);
+}
+.p8{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:100% 0% 61% 39% / 100% 42% 58% 0%  ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(73, 26, 203);
+    display: inline-block;
+    color: rgb(226, 43, 156);
+}
+.p9{
+    padding: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+    width:33%;
+    border-radius:100% 0% 75% 25% / 24% 74% 26% 76%  ;  
+    border-bottom-right-radius: 50px;
+    background-color: rgb(12, 211, 171);
+    display: inline-block;
+    color: rgb(17, 7, 213);
+}

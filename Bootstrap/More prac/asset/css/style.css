@@ -1,0 +1,46 @@
+header::after{
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+.fa-star-of-life{
+    color: #fd7e14;
+    font-size: 10px;
+    padding: 10px;
+    animation: role 2.0s linear infinite;
+    
+}
+@keyframes role {
+    0%{
+        transform: rotate(0deg); 
+        transform-origin: center ; 
+       }
+       100%{
+        transform: rotate(360deg);
+        transform-origin: center ; 
+       }
+}
+.fa-lock{
+    margin-right: -25px;
+
+}
+.fa-lock{
+    transition: all linear 0.5s;
+}
+.fa-lock:hover{
+    background-color: #fd7e14 !important;
+    
+}
+.fa-magnifying-glass{
+    transition: all linear 0.5s;
+
+}
+
+.fa-magnifying-glass:hover{
+    background-color: #fd7e14 !important;
+}

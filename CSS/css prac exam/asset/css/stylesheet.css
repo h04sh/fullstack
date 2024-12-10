@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.py-100{
+    padding: 50px 0;
+}
+:root{
+    --white:#ffffff;
+    --brown:#081839;
+    --mans: 'Montserrat';
+    --robo:'Roboto Slab';
+    --black:#000000;
+    --gutter:12px;
+    --d-brown:#e6f1f7;
+    --gray:#999999;
+    --l-white:#faf8f7;
+    --l-gray:#666666;
+    --d-gray:#333333;
+    --l-black:#282727;
+    --vl-gray:#1bbde4;
+
+}
+.col-1{width: 8.33%; padding: 0 var(--gutter);}
+.col-2{width: 16.66%;padding: 0 var(--gutter);}
+.col-3{width: 25%;padding: 0 var(--gutter);}
+.col-4{width: 33.33%;;}
+.col-5{width: 41.66%;padding: 0 var(--gutter);}
+.col-6{width: 50%;padding: 0 var(--gutter);}
+.col-7{width: 58.33%;padding: 0 var(--gutter);}
+.col-8{width: 66.66%;padding: 0 var(--gutter);}
+.col-9{width: 75%;padding: 0 var(--gutter);}
+.col-10{width: 83.33%;padding: 0 var(--gutter);}
+.col-11{width: 91.66%;padding: 0 var(--gutter);}
+.col-12{width: 100%;padding: 0 var(--gutter);}
+.d-flex{
+    display: flex;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flot-left{
+    float: left;
+}
+.flot-right{
+    float: right;
+}
+.align-item-center{
+    align-content: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-btn{
+    justify-content: space-between;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.text-center{
+    text-align: center;
+}
+/* department */
+.department{
+    background-image: url(../img/bg.png);
+    background-color: var(--brown);
+    height: 80vh;
+    
+}
+.container{
+    position: relative;
+}
+.row{
+    position: absolute;
+    top: 250px;
+}
+.card{
+    transition: all 0.5s cubic-bezier(.645,.045,.355,1)
+}
+.c-img{
+    position: relative;
+}
+.c-img img{
+    display: block;
+}
+.c-img .c-icon{
+    background-color: var(--white);
+    font-size:38px;
+    text-align: center;
+    color:var(--black);
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    bottom:-35px;
+    right:22px;
+    box-shadow: 0 5px 35px 0 rgba(69, 80, 107, .09);
+    z-index: 1;
+    border-radius: 50%;
+    transition: all 0.5s cubic-bezier(.645,.045,.355,1);
+}
+.c-img img{
+    width: 100%;
+}
+.c-dsc{
+    background-color: var(--white);
+    padding: 50px 35px;
+    border-right: 1px solid var(--d-brown);
+    border-bottom:1px solid var(--d-brown);
+}
+@font-face {
+    font-family: 'harsh';
+    src: url(../font/Rajdhani-Bold.woff);
+}
+.c-dsc h2{
+    font-family:'harsh';
+    font-size: 24px;
+    color: var(--brown);
+    margin:0 0 15px;
+}
+@font-face {
+    font-family:'hars' ;
+    src: url(../font/Rajdhani-Light.woff2);
+}
+.c-dsc p{
+    font-family:'hars';
+    color: var(--l-gray);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 25px;
+}
+.c-dsc i{
+    margin: 0 3px;
+}
+.c-dsc button{
+    background:transparent;
+    color: var(--l-gray);
+    font-size: 14px;
+    border: none;
+    padding: 16px 40px 16px 0;
+    transition: all 0.5s cubic-bezier(.645,.045,.355,1);
+}
+.card:hover .c-dsc button{
+    background-color: var(--vl-gray);
+    color: var(--d-brown);
+    padding:16px 40px 16px 40px;
+}
+.card:hover .c-img .c-icon{
+    background-color: #1bbce4bc;
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    color: var(--l-white);
+}
